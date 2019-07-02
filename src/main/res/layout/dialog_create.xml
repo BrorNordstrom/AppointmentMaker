@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="@dimen/dimen_30"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_12"
+            android:gravity="right"
+            android:text="@string/title"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/dimen_5"
+            android:textSize="@dimen/font_12"
+            android:layout_marginRight="@dimen/dimen_5"
+            android:hint="@string/enter_appointment_title"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:layout_marginBottom="@dimen/dimen_5">
+
+        <TextView
+            android:layout_width="@dimen/dimen_30"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_12"
+            android:gravity="right"
+            android:text="@string/date"/>
+
+        <TextView
+            android:id="@+id/spinner_start_tdate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dimen_25"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_12"
+            android:layout_marginLeft="@dimen/dimen_5"
+            android:layout_marginRight="@dimen/dimen_5"
+            android:hint="@string/enter_appointment_date"
+            android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+            android:drawableEnd="@drawable/ic_arrow_drop_down_black_24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_12"
+            android:text="@string/description"
+            android:layout_marginLeft="@dimen/dimen_5"
+            android:layout_marginRight="@dimen/dimen_5"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_12"
+            android:hint="@string/enter_appointment_description"/>
+
+    </LinearLayout>
+
+</LinearLayout>

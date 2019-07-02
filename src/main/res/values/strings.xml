@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Appointment</string>
+    <string name="calender">Calender</string>
+    <string name="create">Create</string>
+    <string name="view_edit">" View/Edit"</string>
+    <string name="delete">Delete</string>
+    <string name="move">Move</string>
+    <string name="search">Search</string>
+    <string name="title">Title</string>
+    <string name="enter_appointment_title">Enter Appointment Title</string>
+    <string name="date">Date</string>
+    <string name="enter_appointment_date">Enter Appointment Date</string>
+    <string name="description">Description</string>
+    <string name="enter_appointment_description">Enter Appointment Description</string>
+    <string name="get_synonyms">Get synonyms</string>
+    <string name="create_appointment">Create Appointment</string>
+    <string name="update_appointment">Update Appointment</string>
+</resources>
